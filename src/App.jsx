@@ -7,8 +7,8 @@ import portrait from './assets/portrait.jpg'
 const resume = {
   basics: {
     name: "Paolo Victor Tamoro Redondo",
-    title: "Ph.D. Candidate in Statistics, KAUST (CEMSE)",
-    location: "KAUST, Saudi Arabia",
+    title: "Ph.D. Candidate in Statistics, King Abdullah University of Science and Technology (KAUST)",
+    location: "Thuwal, Saudi Arabia",
     email: "paolovictor.redondo@kaust.edu.sa",
     github: "ptredondo",
     linkedin: "https://www.linkedin.com/in/paolovictorredondo/",
@@ -16,7 +16,7 @@ const resume = {
       "Sample edited BIO.",
   },
   education: [
-    { degree: "Ph.D. Candidate in Statistics", institution: "KAUST — CEMSE", period: "Jan 2021 – Present" },
+    { degree: "Ph.D. Candidate in Statistics", institution: "Computer, Electrical and Mathematical Sciences and Engineering (CEMSE), KAUST", period: "Jan 2021 – Present" },
     { degree: "M.S. Statistics", institution: "University of the Philippines Diliman — School of Statistics", period: "Aug 2015 – Jun 2017" },
     { degree: "B.S. Statistics (Magna Cum Laude)", institution: "University of the Philippines Diliman — School of Statistics", period: "Jun 2011 – Jun 2015" },
   ],
@@ -52,15 +52,12 @@ const resume = {
     { name: "Best Poster Award", org: "EVA 2023", year: "2023" },
     { name: "Winner (Team Yalla), Data Challenge", org: "EVA 2023", year: "2023" },
     { name: "Al-Kindi Statistics Research Student Award", org: "KAUST", year: "2023" },
-    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2021/2022, AY 2022/2023" },
-    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2022/2023" },
-    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2023/2024" },
-    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2024/2025" },
+    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2021/2022, AY 2022/2023, AY 2023/2024, AY 2024/2025" },
   ],
   experience: [
-    { role: "Assistant Mentor", org: "Saudi Research Science Institute (SRSI)", period: "2022 – 2024", bullets: ["Coached finalists: Saudi Young Talent (2024), National Olympiad (2022)"] },
+    { role: "Assistant Mentor", org: "Saudi Research Science Institute (SRSI)", period: "Summer 2022, Winter 2024", bullets: ["Coached finalists: Saudi Young Talent (Winter 2024), National Olympiad (Summer 2022)"] },
     { role: "Faculty Member", org: "School of Statistics, University of the Philippines Diliman", period: "Aug 2015 – Jul 2019", bullets: ["Assistant Professor (2017–2019)", "Instructor 4 (2015–2017)"] },
-    { role: "Statistical Consultant", org: "Philippine Government & Private Sector", period: "2018 – 2021", bullets: ["PSA: Sampling design revisions (AFS, CFS, IFS, MFS, FIES, CAF, LFS)", "DAP: AFMA impact assessment; BizSat survey", "Rebisco & Energy Development Corporation: dashboard analytics"] },
+    { role: "Statistical Consultant", org: "Philippine Government & Private Sector", period: "2018 – 2021", bullets: ["Philippine Statistics Authority (PSA): Sampling design revisions (AFS, CFS, IFS, MFS, FIES, CAF, LFS)", "Development Academy of the Philippines (DAP): AFMA impact assessment; BizSat survey", "Rebisco (Food Corporation): Dashboard analytics", "Energy Development Corporation (EDC): Dashboard analytics"] },
   ],
   talks: [
     { when: "Aug 2025", title: "Inference on Causation Entropy through Vine Copulas and Amortized Neural Estimators", venue: "EcoSta 2025, Tokyo, Japan" },
