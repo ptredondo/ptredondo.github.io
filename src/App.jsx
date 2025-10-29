@@ -11,8 +11,9 @@ const resume = {
     location: "KAUST, Saudi Arabia",
     email: "paolovictor.redondo@kaust.edu.sa",
     github: "ptredondo",
+    linkedin: "https://www.linkedin.com/in/paolovictorredondo/",
     summary:
-      "I develop nonparametric and machine-learning methods for multivariate time series—focusing on spectral information flow and brain connectivity (EEG).",
+      "Sample edited BIO.",
   },
   education: [
     { degree: "Ph.D. Candidate in Statistics", institution: "KAUST — CEMSE", period: "Jan 2021 – Present" },
@@ -59,18 +60,18 @@ const resume = {
     { role: "Statistical Consultant", org: "Philippine Government & Private Sector", period: "2018 – 2021", bullets: ["PSA: Sampling design revisions (AFS, CFS, IFS, MFS, FIES, CAF, LFS)", "DAP: AFMA impact assessment; BizSat survey", "Rebisco & Energy Development Corporation: dashboard analytics"] },
   ],
   talks: [
-    { when: "Aug 2025", title: "Inference on Causation Entropy through Vine Copulas and Amortized Neural Estimators", venue: "EcoSta 2025, Tokyo" },
-    { when: "Dec 2024", title: "Nonlinear Coherence for Vector Time Series", venue: "ICSDS 2024, Nice" },
-    { when: "Dec 2023", title: "Nonlinear Spectral Dependence Measure for Brain Connectivity in Designed Experiments", venue: "ICSDS 2023, Lisbon" },
-    { when: "Dec 2023", title: "A Nonlinear Spectral Dependence Measure for Brain Connectivity in Designed Experiments", venue: "CMStatistics 2023, Berlin" },
-    { when: "Dec 2023", title: "A short tutorial on general dependence measures", venue: "MSM 2023, Krakow" },
-    { when: "Aug 2023", title: "Measuring Information Transfer Between Nodes in a Brain Network Through Spectral Transfer Entropy", venue: "JSM 2023, Toronto" },
-    { when: "Aug 2023", title: "Measuring Cross-Channel Information Transfer in the Frequency Domain", venue: "EcoSta 2023, Tokyo" },
-    { when: "Jun 2023", title: "Spectral Transfer Entropy and its Application to Extremal Brain Causal Connectivity Networks (Poster)", venue: "EVA 2023, Milan" },
-    { when: "Dec 2022", title: "Tail Transfer Entropy: A New Extremal Dependence Measure for Studying Connectivity in a Brain Network", venue: "CMStatistics 2022, London" },
-    { when: "Dec 2022", title: "Measuring Cross-Channel Information Transfer Through Spectral Transfer Entropy", venue: "ICSDS 2022, Florence" },
-    { when: "Jun 2022", title: "Functional-coefficient Models for Multivariate Time Series in Designed Experiments", venue: "EcoSta 2022 (Virtual)" },
-    { when: "Mar 2022", title: "Functional-coefficient Models ... with Application to Brain Signals", venue: "ENAR 2022 Spring Meeting, Houston" },
+    { when: "Aug 2025", title: "Inference on Causation Entropy through Vine Copulas and Amortized Neural Estimators", venue: "EcoSta 2025, Tokyo, Japan" },
+    { when: "Dec 2024", title: "Nonlinear Coherence for Vector Time Series", venue: "ICSDS 2024, Nice, France" },
+    { when: "Dec 2023", title: "Nonlinear Spectral Dependence Measure for Brain Connectivity in Designed Experiments", venue: "ICSDS 2023, Lisbon, Portugal" },
+    { when: "Dec 2023", title: "A Nonlinear Spectral Dependence Measure for Brain Connectivity in Designed Experiments", venue: "CMStatistics 2023, Berlin, Germany" },
+    { when: "Dec 2023", title: "A short tutorial on general dependence measures", venue: "MSM 2023, Krakow, Poland" },
+    { when: "Aug 2023", title: "Measuring Information Transfer Between Nodes in a Brain Network Through Spectral Transfer Entropy", venue: "JSM 2023, Toronto, Canada" },
+    { when: "Aug 2023", title: "Measuring Cross-Channel Information Transfer in the Frequency Domain", venue: "EcoSta 2023, Tokyo, Japan" },
+    { when: "Jun 2023", title: "Spectral Transfer Entropy and its Application to Extremal Brain Causal Connectivity Networks (Poster)", venue: "EVA 2023, Milan, Italy" },
+    { when: "Dec 2022", title: "Tail Transfer Entropy: A New Extremal Dependence Measure for Studying Connectivity in a Brain Network", venue: "CMStatistics 2022, London, United Kingdom" },
+    { when: "Dec 2022", title: "Measuring Cross-Channel Information Transfer Through Spectral Transfer Entropy", venue: "ICSDS 2022, Florence, Italy" },
+    { when: "Jun 2022", title: "Functional-coefficient Models for Multivariate Time Series in Designed Experiments", venue: "EcoSta 2022 (Virtual), Tokyo, Japan" },
+    { when: "Mar 2022", title: "Functional-coefficient Models ... with Application to Brain Signals", venue: "ENAR 2022 Spring Meeting, Houston, USA" },
   ],
 }
 function H2({ icon, children, id }){
@@ -132,8 +133,9 @@ export default function App(){
                 <p className="text-lg text-zinc-500 dark:text-zinc-400 mt-1">{resume.basics.title}</p>
                 <div className="flex flex-wrap gap-2 mt-3 text-sm text-zinc-500 dark:text-zinc-400">
                   <span>📍 {resume.basics.location}</span>
-                  <a className="underline" href={`mailto:${resume.basics.email}`}>✉ {resume.basics.email}</a>
-                  <a className="underline" href={`https://github.com/${resume.basics.github}`} target="_blank" rel="noreferrer">GitHub</a>
+                  <a className="underline" href={`mailto:${resume.basics.email}`}> Email </a>
+                  <a  className="underline"  href={`https://github.com/${resume.basics.github}`}  target="_blank"  rel="noreferrer">  GitHub </a>
+                  <a  className="underline"  href={resume.basics.linkedin}  target="_blank"  rel="noreferrer">  LinkedIn </a>
                 </div>
                 <p className="mt-4 leading-relaxed">{resume.basics.summary}</p>
               </div>
