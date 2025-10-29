@@ -12,13 +12,12 @@ const resume = {
     email: "paolovictor.redondo@kaust.edu.sa",
     github: "ptredondo",
     linkedin: "https://www.linkedin.com/in/paolovictorredondo/",
-    summary:
-      "Sample edited BIO2.",
+    summary:"\"Research means that you don\'t know, but you are willing to find out.\" - Charles F. Kettering \n \n Academic Advisers: Prof. Raphaël Huser and Prof. Hernando Ombao",
   },
   education: [
     { degree: "Ph.D. Candidate in Statistics", institution: "Computer, Electrical and Mathematical Sciences and Engineering (CEMSE), KAUST", period: "Jan 2021 – Present" },
-    { degree: "M.S. Statistics", institution: "University of the Philippines Diliman — School of Statistics", period: "Aug 2015 – Jun 2017" },
-    { degree: "B.S. Statistics (Magna Cum Laude)", institution: "University of the Philippines Diliman — School of Statistics", period: "Jun 2011 – Jun 2015" },
+    { degree: "M.S. Statistics", institution: "School of Statistics, University of the Philippines Diliman", period: "Aug 2015 – Jun 2017" },
+    { degree: "B.S. Statistics (Magna Cum Laude)", institution: "School of Statistics, University of the Philippines Diliman", period: "Jun 2011 – Jun 2015" },
   ],
   published: [
     { year: 2025, title: "Measuring Information Transfer Between Nodes in a Brain Network through Spectral Transfer Entropy", authors: "REDONDO, P.; Huser, R.; Ombao, H.", venue: "The Annals of Applied Statistics 19(3): 2386–2411", url: "https://doi.org/10.1214/25-AOAS2050" },
