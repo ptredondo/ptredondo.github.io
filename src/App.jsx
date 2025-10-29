@@ -33,7 +33,7 @@ const resume = {
   ],
   underReview: [
     { title: "Club Exco: Clustering Brain Extreme Communities from Multi-channel EEG Data", authors: "Guerrero, M.; REDONDO, P.; Huser, R.; Ombao, H.", note: "Major revision for The Annals of Applied Statistics", url: "https://arxiv.org/abs/2212.04338" },
-    { title: "Evaluating Cortical Activity and Balance Performance in Alpine Skiers: An fNIRS Study", authors: "Khan, H.; REDONDO, P.; Engell, H.; Ombao, H.; Mirtaheri, P.", note: "Under review at Human Movement Science", url: "https://www.techrxiv.org/doi/full/10.36227/techrxiv.24188673.v2" },
+    { title: "Evaluating Cortical Activity and Balance Performance in Alpine Skiers: An fNIRS Study", authors: "Khan, H.; REDONDO, P.; Engell, H.; Ombao, H.; Mirtaheri, P.", note: "Major revision for Human Movement Science", url: "https://www.techrxiv.org/doi/full/10.36227/techrxiv.24188673.v2" },
     { title: "The Linkage of Weather Extremes and Firm Efficiency: Empirical Evidence from Electric Cooperatives in the Philippines", authors: "Barrios, E.; Mazlan, N.; Weng, L.; REDONDO, P.; Chinh, L.", note: "Under review for Journal of Applied Econometrics" },
     { title: "On Tuberculosis Incidence, Health Expenditure and Macroeconomy: Insights from Cross-Country Data", authors: "Barrios, E.; REDONDO, P.; Nalica, A.", note: "Under review for Computational Economics" },
   ],
