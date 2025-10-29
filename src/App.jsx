@@ -55,9 +55,9 @@ const resume = {
     { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2021/2022, AY 2022/2023, AY 2023/2024, AY 2024/2025" },
   ],
   experience: [
-    { role: "Assistant Mentor", org: "Saudi Research Science Institute (SRSI)", period: "Summer 2022, Winter 2024", bullets: ["Coached finalists: Saudi Young Talent (Winter 2024), National Olympiad (Summer 2022)"] },
-    { role: "Faculty Member", org: "School of Statistics, University of the Philippines Diliman", period: "Aug 2015 – Jul 2019", bullets: ["Assistant Professor (2017–2019)", "Instructor 4 (2015–2017)"] },
-    { role: "Statistical Consultant", org: "Philippine Government & Private Sector", period: "2018 – 2021", bullets: ["Philippine Statistics Authority (PSA): Sampling design revisions (AFS, CFS, IFS, MFS, FIES, CAF, LFS)", "Development Academy of the Philippines (DAP): AFMA impact assessment; BizSat survey", "Rebisco (Food Corporation): Dashboard analytics", "Energy Development Corporation (EDC): Dashboard analytics"] },
+    { role: "Assistant Mentor, Saudi Research Science Institute (SRSI)", org: "", period: "Summer 2022, Winter 2024", bullets: ["Coached finalists: Saudi Young Talent (Winter 2024), National Olympiad (Summer 2022)"] },
+    { role: "Faculty Member, School of Statistics, University of the Philippines Diliman", org: "", period: "Aug 2015 – Jul 2019", bullets: ["Assistant Professor (2017–2019)", "Instructor 4 (2015–2017)"] },
+    { role: "Statistical Consultant, Philippine Government and Private Sector", org: "", period: "Jan 2018 – Sept 2021", bullets: ["Philippine Statistics Authority (PSA): Sampling design revisions (AFS, CFS, IFS, MFS, FIES, CAF, LFS)", "Development Academy of the Philippines (DAP): AFMA impact assessment; BizSat survey", "Rebisco (Food Corporation): Dashboard analytics", "Energy Development Corporation (EDC): Dashboard analytics"] },
   ],
   talks: [
     { when: "Aug 2025", title: "Inference on Causation Entropy through Vine Copulas and Amortized Neural Estimators", venue: "EcoSta 2025, Tokyo, Japan" },
@@ -177,21 +177,7 @@ export default function App(){
               </ul>
             </section>
           </div>
-
-
           
-          <section id="education">
-            <div className="flex items-center gap-2 mb-4"><GraduationCap className="w-5 h-5"/><h2 className="text-2xl font-semibold">Education</h2></div>
-            <div className="space-y-3">
-              {resume.education.map((e, i)=>(
-                <div key={i} className="border-l-2 pl-3">
-                  <div className="text-sm text-zinc-500 dark:text-zinc-400">{e.period}</div>
-                  <div className="font-medium">{e.degree}</div>
-                  <div className="text-sm">{e.institution}</div>
-                </div>
-              ))}
-            </div>
-          </section>
           <section id="published">
             <div className="flex items-center gap-2 mb-4"><Newspaper className="w-5 h-5"/><h2 className="text-2xl font-semibold">Published Papers</h2></div>
             <ul>{resume.published.map((p,i)=> <Pub key={i} p={p} />)}</ul>
@@ -226,16 +212,6 @@ export default function App(){
                 </CardContent></Card>
               ))}
             </div>
-          </section>
-          <section id="awards">
-            <div className="flex items-center gap-2 mb-4"><Award className="w-5 h-5"/><h2 className="text-2xl font-semibold">Awards</h2></div>
-            <ul className="space-y-2">
-              {resume.awards.map((a,i)=>(
-                <li key={i} className="flex items-center gap-2">
-                  <Award className="w-4 h-4" /><span className="text-sm">{a.year} · {a.name} — {a.org}</span>
-                </li>
-              ))}
-            </ul>
           </section>
           <section id="experience">
             <div className="flex items-center gap-2 mb-4"><Briefcase className="w-5 h-5"/><h2 className="text-2xl font-semibold">Working Experience</h2></div>
