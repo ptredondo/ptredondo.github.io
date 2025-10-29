@@ -13,7 +13,7 @@ const resume = {
     github: "ptredondo",
     linkedin: "https://www.linkedin.com/in/paolovictorredondo/",
     summary:
-      "Sample edited BIO.",
+      "Sample edited BIO2.",
   },
   education: [
     { degree: "Ph.D. Candidate in Statistics", institution: "Computer, Electrical and Mathematical Sciences and Engineering (CEMSE), KAUST", period: "Jan 2021 – Present" },
