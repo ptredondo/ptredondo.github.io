@@ -141,6 +141,45 @@ export default function App(){
               </div>
             </div>
           </section>
+
+          {/* Education and Awards side by side */}
+          <div className="flex flex-col md:flex-row md:space-x-8" id="education-awards">
+            {/* Left column: Education */}
+            <section id="education" className="md:w-1/2">
+              <div className="flex items-center gap-2 mb-4">
+                <GraduationCap className="w-5 h-5"/>
+                <h2 className="text-2xl font-semibold">Education</h2>
+              </div>
+              <div className="space-y-3">
+                {resume.education.map((e, i)=>(
+                  <div key={i} className="border-l-2 pl-3">
+                    <div className="text-sm text-zinc-500 dark:text-zinc-400">{e.period}</div>
+                    <div className="font-medium">{e.degree}</div>
+                    <div className="text-sm">{e.institution}</div>
+                  </div>
+                ))}
+              </div>
+            </section>
+          
+            {/* Right column: Awards */}
+            <section id="awards" className="md:w-1/2 mt-8 md:mt-0">
+              <div className="flex items-center gap-2 mb-4">
+                <Award className="w-5 h-5"/>
+                <h2 className="text-2xl font-semibold">Awards</h2>
+              </div>
+              <ul className="space-y-2">
+                {resume.awards.map((a,i)=>(
+                  <li key={i} className="flex items-center gap-2">
+                    <Award className="w-4 h-4" />
+                    <span className="text-sm">{a.year} · {a.name} — {a.org}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          </div>
+
+
+          
           <section id="education">
             <div className="flex items-center gap-2 mb-4"><GraduationCap className="w-5 h-5"/><h2 className="text-2xl font-semibold">Education</h2></div>
             <div className="space-y-3">
