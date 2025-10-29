@@ -55,9 +55,10 @@ const resume = {
     { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2021/2022, AY 2022/2023, AY 2023/2024, AY 2024/2025" },
   ],
   experience: [
-    { role: "Assistant Mentor, Saudi Research Science Institute (SRSI)", org: "", period: "Summer 2022, Winter 2024", bullets: ["Coached finalists: Saudi Young Talent (Winter 2024), National Olympiad (Summer 2022)"] },
-    { role: "Faculty Member, School of Statistics, University of the Philippines Diliman", org: "", period: "Aug 2015 – Jul 2019", bullets: ["Assistant Professor (2017–2019)", "Instructor 4 (2015–2017)"] },
-    { role: "Statistical Consultant, Philippine Government and Private Sector", org: "", period: "Jan 2018 – Sept 2021", bullets: ["Philippine Statistics Authority (PSA): Sampling design revisions (AFS, CFS, IFS, MFS, FIES, CAF, LFS)", "Development Academy of the Philippines (DAP): AFMA impact assessment; BizSat survey", "Rebisco (Food Corporation): Dashboard analytics", "Energy Development Corporation (EDC): Dashboard analytics"] },
+    { role: "Teaching Assistant, CEMSE, KAUST", org: "", period: "Fall 2021 - Fall 2025", bullets: ["AMCS 143: Introduction to Probability and Statistics (Fall 2021)", "STAT 350: Time Series Analysis (Spring 2022, Spring 2024)", "STAT 220: Probability and Statistics (Fall 2023, Fall 2024, Fall 2025)","STAT 360: Functional Data Analysis (Spring 2024)","KAUST-ARAMCO course: Applied Statistics and Data Analysis (Summer 2022)","KAUST-ARAMCO course: Applied Statistics in R (Spring 2023)"] },
+    { role: "Assistant Mentor, Saudi Research Science Institute (SRSI)", org: "", period: "Summer 2022, Winter 2024", bullets: ["Coached finalists: Saudi Young Talent (Winter 2024), National Olympiad for Scientific Creativity (Summer 2022)"] },
+    { role: "Faculty Member, School of Statistics, University of the Philippines Diliman", org: "", period: "Aug 2015 – Jul 2019", bullets: ["Assistant Professor (Sep 2017 – Jul 2019)", "Instructor 4 (Aug 2015 – Aug 2017)"] },
+    { role: "Statistical Consultant, Philippine Government and Private Sector", org: "", period: "Jan 2018 – Sep 2021", bullets: ["Philippine Statistics Authority (PSA): Sampling design revisions (AFS, CFS, IFS, MFS, FIES, CAF, LFS)", "Development Academy of the Philippines (DAP): AFMA impact assessment; BizSat survey", "Rebisco (Food Corporation): Dashboard analytics", "Energy Development Corporation (EDC): Dashboard analytics"] },
   ],
   talks: [
     { when: "Aug 2025", title: "Inference on Causation Entropy through Vine Copulas and Amortized Neural Estimators", venue: "EcoSta 2025, Tokyo, Japan" },
