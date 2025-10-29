@@ -12,7 +12,8 @@ const resume = {
     email: "paolovictor.redondo@kaust.edu.sa",
     github: "ptredondo",
     linkedin: "https://www.linkedin.com/in/paolovictorredondo/",
-    summary:"<i>\"Research means that you don\'t know, but you are willing to find out.\"</i> - Charles F. Kettering \n <b>Academic Advisers:</b> Prof. Raphaël Huser and Prof. Hernando Ombao",
+    summary: "<i>\"Research means that you don\'t know, but you are willing to find out.\"</i> - Charles F. Kettering<br><br><b>Academic Advisers:</b> Prof. Raphaël Huser and Prof. Hernando Ombao",
+
   },
   education: [
     { degree: "Ph.D. Candidate in Statistics", institution: "Computer, Electrical and Mathematical Sciences and Engineering (CEMSE), KAUST", period: "Jan 2021 – Present" },
@@ -137,7 +138,7 @@ export default function App(){
                   <a  className="underline"  href={`https://github.com/${resume.basics.github}`}  target="_blank"  rel="noreferrer">  GitHub </a>
                   <a  className="underline"  href={resume.basics.linkedin}  target="_blank"  rel="noreferrer">  LinkedIn </a>
                 </div>
-                <p className="mt-4 leading-relaxed whitespace-pre-line">{resume.basics.summary}</p>
+                <p  className="mt-4 leading-relaxed" dangerouslySetInnerHTML={{ __html: resume.basics.summary }} ></p>
               </div>
             </div>
           </section>
