@@ -48,11 +48,14 @@ const resume = {
     { name: "NonparVolTest (R package)", note: "Nonparametric volatility test for clustered multiple time series", link: "https://github.com/ptredondo/NonparVolTest" },
   ],
   awards: [
-    { name: "Runner-up, Distinguished Student Paper Award", org: "ASA Statistics in Imaging (JSM)", year: "2023" },
-    { name: "Best Poster Award", org: "EVA 2023, Milan", year: "2023" },
+    { name: "Runner-up, Distinguished Student Paper Award", org: "ASA Statistics in Imaging (JSM 2023)", year: "2023" },
+    { name: "Best Poster Award", org: "EVA 2023", year: "2023" },
     { name: "Winner (Team Yalla), Data Challenge", org: "EVA 2023", year: "2023" },
     { name: "Al-Kindi Statistics Research Student Award", org: "KAUST", year: "2023" },
-    { name: "Dean’s List (CEMSE)", org: "KAUST (AY 2021/22 – 2024/25)", year: "2021–2025" },
+    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2021/2022, AY 2022/2023" },
+    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2022/2023" },
+    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2023/2024" },
+    { name: "Dean’s List", org: "CEMSE, KAUST", year: "AY 2024/2025" },
   ],
   experience: [
     { role: "Assistant Mentor", org: "Saudi Research Science Institute (SRSI)", period: "2022 – 2024", bullets: ["Coached finalists: Saudi Young Talent (2024), National Olympiad (2022)"] },
